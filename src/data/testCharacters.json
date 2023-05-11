@@ -1,0 +1,45 @@
+{
+    "0" : {
+        "id" : 0,
+        "name" : "Wakenda Achachak",
+        "age" : 51,
+        "identity" : [
+            "Vieil Indien",
+            "Vendeur Boutique de Souvenir"
+        ],
+        "background" : "Veuf depuis 30 ans, Wakenda est un vieil homme de la tribu des Potawatomi. Comme de nombreux indiens, sa tribu possède des casinos dans les états du sud, mais Wakenda préfère la vie tranquille d'un vendeur de souvenir.",
+        "portrait" : "",
+        "attributes" : {
+            "COM" : 35,
+            "TIR" : 80,
+            "PHY" : 40,
+            "AGI" : 45,
+            "INT" : 75,
+            "PER" : 75,
+            "SGF" : 65,
+            "PRO" : 80
+        },
+        "abilities" : []
+    },
+    "1" : {
+        "id" : 1,
+        "name" : "David O'Donnel",
+        "age" : 28,
+        "identity" : [
+            "Pompier"
+        ],
+        "background" : "David est un pompier de New York. Il a été séparé de sa femme et de son fils lors de la grande évacuation. Ils furent emmenés en priorité vers une destination militaire inconnue, tandis que les hommes durent attendre une autre évacuation qui ne vint jamais.",
+        "portrait" : "",
+        "attributes" : {
+            "COM" : 55,
+            "TIR" : 30,
+            "PHY" : 80,
+            "AGI" : 70,
+            "INT" : 65,
+            "PER" : 75,
+            "SGF" : 85,
+            "PRO" : 80
+        },
+        "abilities" : []
+    }
+}

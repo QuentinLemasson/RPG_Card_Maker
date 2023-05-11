@@ -1,0 +1,59 @@
+[
+    {
+        "slug" : "COM",
+        "name" : "Combat",
+        "icon" : "",
+        "min" : 5,
+        "max" : 95
+    },
+    {
+        "slug" : "TIR",
+        "name" : "Tir",
+        "icon" : "",
+        "min" : 5,
+        "max" : 95
+    },
+    {
+        "slug" : "PHY",
+        "name" : "Physique",
+        "icon" : "",
+        "min" : 5,
+        "max" : 95
+    },
+    {
+        "slug" : "AGI",
+        "name" : "Agilité",
+        "icon" : "",
+        "min" : 5,
+        "max" : 95
+    },
+    {
+        "slug" : "INT",
+        "name" : "Intellect",
+        "icon" : "",
+        "min" : 5,
+        "max" : 95
+    },
+    {
+        "slug" : "PER",
+        "name" : "Perception",
+        "icon" : "",
+        "min" : 5,
+        "max" : 95
+    },
+    {
+        "slug" : "SGF",
+        "name" : "Sang-Froid",
+        "icon" : "",
+        "min" : 5,
+        "max" : 95
+    },
+    {
+        "slug" : "PRO",
+        "name" : "Profession",
+        "icon" : "",
+        "min" : 5,
+        "max" : 95,
+        "nullable" : true
+    }
+]

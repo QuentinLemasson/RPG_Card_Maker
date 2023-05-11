@@ -1,14 +1,23 @@
 import { createSlice, createSelector, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../store';
+import * as testCharacters from '../data/testCharacters.json';
 
 //************* */
 //** Interfaces */
 //************* */
 
-interface Character {
+export type Character = {
     id : number,
     name : string,
-}
+    age : number,
+    identity : string[],
+    background : string,
+    portrait : string,
+    abilities : string[],
+    attributes : {
+        [key: string] : number | null
+    } 
+} 
 
 interface CharacterState {
     entities: {
@@ -25,12 +34,7 @@ interface CharacterState {
 
 const reducerName : 'characters' = 'characters';
 const initialState : CharacterState = {
-    entities : {
-        0 : {
-            id : 0,
-            name : 'Sekiro',
-        }
-    },
+    entities : testCharacters,
     ids : [0],
     error : "",
     status : 'IDLE',

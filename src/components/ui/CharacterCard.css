@@ -1,0 +1,39 @@
+.character-card-container {
+    --card-border-color : black;
+
+    position : relative;
+
+    border : 1px solid var(--card-border-color);
+    width : 380px;
+    aspect-ratio: 63/88;
+
+    display : grid;
+    grid-template-columns : 1fr;
+    grid-template-rows: auto auto auto 1fr auto;
+}
+
+.character-card-container .card-portrait {
+    display: flex;
+    justify-content: center;
+}
+
+.character-card-container .card-portrait img{
+    border : 1px solid var(--card-border-color);
+    width : 90%;
+    aspect-ratio: 16/9;
+}
+
+.character-card-container .card-attributes {
+    width : 100%;
+    display : flex;
+    justify-content: space-between;
+    gap : 5px;
+}
+
+.character-card-container .card-attributes > *:first-child {
+    margin-left: auto;
+}
+
+.character-card-container .card-attributes > *:last-child {
+    margin-right: auto;
+}
